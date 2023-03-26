@@ -1,0 +1,76 @@
+.contact {
+    padding-top:150px ;
+}
+.contact .map {
+    margin-bottom: 40px;
+    width:100%;
+}
+.contact .map 
+.contact .form > h1 {
+    color: #0b1c39;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact .form-container {
+    display: flex;
+    gap: 10%;
+}
+.contact form {
+    width: 65%;
+}
+.contact input,
+.contact textarea {
+    width: 100%;
+    border: 1px solid #e5e6e9;
+    padding: 14px 14px 14px 20px ;
+    font-size: 13px;
+    color: #495057;
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    margin-bottom: 25px;
+    outline: none;
+}
+.contact form textarea {
+    height: 200px;
+}
+.contact form div {
+    display: flex;
+    gap: 25px;
+}
+.contact form input[type=submit] {
+    width: fit-content;
+    padding:12px 25px ;
+    font-size: 16px;
+    font-weight: 500;
+    background-color:#ff2020;
+    color: #fff;
+    cursor: pointer;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.contact .form .us .card{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #8a8a8a;
+}
+.contact .form .us .card p:first-of-type {
+    color: #2a2a2a;
+    font-weight: 500;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.contact .form .us .card p:last-of-type {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.contact .form .us .card i{
+    font-size: 40px;
+    margin-right: 10px;
+}

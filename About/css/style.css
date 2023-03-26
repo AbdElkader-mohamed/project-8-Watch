@@ -1,0 +1,48 @@
+
+/* start about section style  */
+.about {
+    padding-bottom:150px ;
+    padding-top:150px ;
+}
+.about .cards {
+    width: 60%;
+    margin-left: 10%;
+}
+.about .card {
+    margin-bottom: 70px;
+}
+.about .card h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000a2d;
+    position: relative;
+    padding-left: 70px;
+    margin-bottom: 30px;
+}
+.about .card h2::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%);
+    background-color: #ff003c;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.about .card p {
+    font-family: "Roboto",sans-serif;
+    color: #464d65;
+    width: 100%;
+    font-size: 14px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+/* end about section style  */
+.video {
+    margin-bottom: 150px;
+}
